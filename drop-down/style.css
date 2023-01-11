@@ -1,0 +1,66 @@
+/* body {
+    padding: 50px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.trigger {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #999;
+    background-color: #ddd;
+}
+
+.box {
+    display: inline-block;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    transition: transform 300ms ease-in-out;
+    pointer-events: none;
+    /*always put the transition on item and property on trigger
+}
+
+.trigger:hover .box {
+    transform: translate(200px, 150px) rotate(20deg);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;500&family=Raleway:wght@100;500&display=swap');
+
+:root {
+    /* CSS HEX */
+    --powder-blue: #c0deddff;
+    --dark-sky-blue: #7fbdd4ff;
+    --persian-plum: #77191eff;
+    --maximum-red: #cd2f24ff;
+    --arylide-yellow: #ebd65eff;
+
+    /* CSS HSL */
+    --powder-blue: hsla(178, 31%, 81%, 1);
+    --dark-sky-blue: hsla(196, 50%, 66%, 1);
+    --persian-plum: hsla(357, 65%, 28%, 1);
+    --maximum-red: hsla(4, 70%, 47%, 1);
+    --arylide-yellow: hsla(51, 78%, 65%, 1);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul#menu-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li.link,
+#menu {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: var(--dark-sky-blue);
+}
+
+ul.collapse {
+    visibility: collapse;
+}
