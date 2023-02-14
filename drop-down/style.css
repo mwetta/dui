@@ -47,14 +47,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
-ul#menu-list {
+ul#main-menu {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-li.link,
+.active {
+    background-color: var(--powder-blue);
+}
+
+li,
 #menu {
     border-radius: 20px;
     padding: 10px;
